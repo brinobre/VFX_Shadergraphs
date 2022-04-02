@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MeteorShader_Shadergraph_Material
+  m_Shader: {fileID: -6465566751694194690, guid: 52aba391b45772c46a9c376999b74277, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - MainTexture_:
+        m_Texture: {fileID: 2800000, guid: 8bc847bf85bbcac4187f94b83320cf04, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - FresnelPower_: 5.5
+    - Metallic_: 0
+    - NoiseDissolve_: 3
+    - NoiseScale_: 30
+    - NormalStrength_: 0
+    - Smoothness_: 0
+    - VoronoiDissolve_: 4
+    - VoronoiScale_: 5
+    m_Colors:
+    - Color_4302290ac5aa41149124c94969433729: {r: 23.968628, g: 4.392157, b: 2.6352942, a: 0}
+    - FresnelColor_: {r: 23.968628, g: 4.392157, b: 2.6352942, a: 0}
+    - MainColor_: {r: 0.07450981, g: 0.047058824, b: 0.047058824, a: 1}
+    - NoiseSpeed_: {r: -0.1, g: 0.1, b: 0, a: 0}
+    - VoronoiSpeed_: {r: 0.1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
